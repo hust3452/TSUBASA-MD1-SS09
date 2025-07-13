@@ -1,0 +1,224 @@
+*{  background-color:rgb(32, 32, 32) ;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+.avatar{
+    padding: 20px;
+    width: 50%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.option1{
+    width: 20%;
+    color: white;
+    font-size: 18px;
+}
+.join{
+    width:35% ;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid white ;
+    border-radius:5px;
+    padding-top: 10px;
+    text-align: center;
+}
+.header2{
+    width: 100%;
+    text-align: center;
+}
+.header2 h1{
+    padding:10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+}
+
+.header2-2{
+    padding:5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+.header2-3{
+    padding:20px 10px;
+    width:70%;
+    padding-left: 40%;
+    display: flex;
+    gap: 20px;
+}
+.header2-3 div{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.header2-3 div:hover{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(5, 106, 189);
+    border: 1px solid rgb(5, 106, 189);
+    border-radius: 5px;
+}
+.header2 img{
+    width: 80%;
+}
+.header2-4 div{
+    color: white;
+}
+
+.header3{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header3 .img{
+    width: 30%;
+    padding: 10px 10px;
+}
+.header3 .img4{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.featured{
+    width: 100%;
+    color: white;
+}
+.featured h1{
+    margin-left: 10%;
+    text-align: left;
+}
+.featured div{
+    margin-left: 10%;
+    text-align: left;
+}
+.featured img{
+    padding-left: 10%;
+    width: 80%;
+    text-align: left;
+}
+.featured .button{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 40%;
+
+}
+.button div{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.button div:hover{
+    border: 1px solid rgb(5, 106, 189);
+    background-color: rgb(5, 106, 189);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width:480px) {
+.header{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+.avatar{
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.option1{
+    width: 20%;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.header2-3{
+    padding:20px 10px;
+    width:70%;
+    padding-left: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.header2-3 div{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.header2-3 div:hover{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(5, 106, 189);
+    border: 1px solid rgb(5, 106, 189);
+    border-radius: 5px;
+}
+
+.header3{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header3 .img{
+    width: 80%;
+    padding: 10px 10px;
+}
+.header3 .img4{
+    width: 80%;
+    padding-bottom: 30px;
+}
+}
